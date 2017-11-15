@@ -1,3 +1,11 @@
+xfwm4 (4.12.4-2pardus1) unstable; urgency=medium
+
+  * Update control file
+  * Pardus CI implementation
+  * Add patches
+
+ -- Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>  Wed, 15 Nov 2017 14:03:59 +0300
+
 xfwm4 (4.12.4-1) unstable; urgency=medium
 
   * debian/watch: track 4.12 branch.
