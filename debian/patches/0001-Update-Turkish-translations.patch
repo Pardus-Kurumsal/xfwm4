@@ -1,0 +1,113 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Wed, 15 Nov 2017 13:57:47 +0300
+Subject: Update Turkish translations
+
+---
+ po/tr.po | 39 ++++++++++++++++++++++++++-------------
+ 1 file changed, 26 insertions(+), 13 deletions(-)
+
+diff --git a/po/tr.po b/po/tr.po
+index 75ffa85..909ede8 100644
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -1,7 +1,7 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-# 
++#
+ # Translators:
+ # Erçin EKER <erc.caldera@gmx.net>, 2003
+ # erenturkay <turkay.eren@gmail.com>, 2007
+@@ -9,25 +9,30 @@
+ # Natavan Mirzayeva <mirzayevanatavan@gmail.com>, 2015
+ # Necdet Yücel <necdetyucel@gmail.com>, 2014
+ # Volkan Gezer <volkangezer@gmail.com>, 2013-2014
++# Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>, 2017.
++#
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: Xfwm4\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-01-30 00:32+0100\n"
+-"PO-Revision-Date: 2015-02-17 12:14+0000\n"
+-"Last-Translator: Natavan Mirzayeva <mirzayevanatavan@gmail.com>\n"
+-"Language-Team: Turkish (http://www.transifex.com/projects/p/xfwm4/language/tr/)\n"
++"PO-Revision-Date: 2017-11-15 13:52+0300\n"
++"Last-Translator: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>\n"
++"Language-Team: Türkçe <>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Language: tr\n"
+-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
++"X-Generator: Gtranslator 2.91.7\n"
+ 
+ #: ../helper-dialog/helper-dialog.c:84
+ msgid ""
+ "This window might be busy and is not responding.\n"
+ "Do you want to terminate the application?"
+-msgstr "Bu pencere meşgul ve şuan cevap vermiyor.\nUygulamayı sonlandırmak ister misiniz?"
++msgstr ""
++"Bu pencere meşgul ve şuan cevap vermiyor.\n"
++"Uygulamayı sonlandırmak ister misiniz?"
+ 
+ #: ../helper-dialog/helper-dialog.c:89
+ msgid "Warning"
+@@ -66,7 +71,9 @@ msgstr "."
+ msgid ""
+ "%s: %s\n"
+ "Try %s --help to see a full list of available command line options.\n"
+-msgstr "%s: %s\nUygun komut satırı seçeneklerinin listesini görmek için %s --help yazın.\n"
++msgstr ""
++"%s: %s\n"
++"Uygun komut satırı seçeneklerinin listesini görmek için %s --help yazın.\n"
+ 
+ #: ../settings-dialogs/workspace-settings.c:74
+ #: ../settings-dialogs/workspace-settings.c:89
+@@ -376,15 +383,19 @@ msgstr "Öntanımlılara Geri Dön"
+ 
+ #: ../settings-dialogs/xfwm4-settings.c:1903
+ msgid ""
+-"This will reset all shortcuts to their default values. Do you really want to"
+-" do this?"
+-msgstr "Bu, tüm kısayolları öntanımlı değerlerine geri döndürecek. Bunu yapmak istediğinizden emin misiniz?"
++"This will reset all shortcuts to their default values. Do you really want to "
++"do this?"
++msgstr ""
++"Bu, tüm kısayolları öntanımlı değerlerine geri döndürecek. Bunu yapmak "
++"istediğinizden emin misiniz?"
+ 
+ #: ../settings-dialogs/xfwm4-tweaks-dialog.glade.h:3
+ msgid ""
+ "S_kip windows that have \"skip pager\"\n"
+ "or \"skip taskbar\" properties set"
+-msgstr "\"Sayfalayıcıyı atla\" veya \"Görev çubuğunu atla\"\nseçenekleri ayarlanmış olan pencereleri a_tla"
++msgstr ""
++"\"Sayfalayıcıyı atla\" veya \"Görev çubuğunu atla\"\n"
++"seçenekleri ayarlanmış olan pencereleri a_tla"
+ 
+ #: ../settings-dialogs/xfwm4-tweaks-dialog.glade.h:5
+ msgid "_Include hidden (i.e. iconified) windows"
+@@ -478,7 +489,9 @@ msgstr "Çalış_ma alanlarını değiştirmek için fare tekerini kullan"
+ msgid ""
+ "_Remember and recall previous workspace\n"
+ "when switching via keyboard shortcuts"
+-msgstr "Klavye kısayolları ile geçiş yaparken\nönceki çalışma alanını hatırla ve çağır"
++msgstr ""
++"Klavye kısayolları ile geçiş yaparken\n"
++"önceki çalışma alanını hatırla ve çağır"
+ 
+ #: ../settings-dialogs/xfwm4-tweaks-dialog.glade.h:30
+ msgid "Wrap workspaces depending on the actual desktop _layout"
+@@ -531,7 +544,7 @@ msgstr "_Dikey boşluk çizimine eşitle"
+ 
+ #: ../settings-dialogs/xfwm4-tweaks-dialog.glade.h:45
+ msgid "Show windows preview in place of icons when cycling"
+-msgstr ""
++msgstr "Gezinirken pencere önizlemesini de göster"
+ 
+ #: ../settings-dialogs/xfwm4-tweaks-dialog.glade.h:46
+ msgid "Show shadows under pop_up windows"
